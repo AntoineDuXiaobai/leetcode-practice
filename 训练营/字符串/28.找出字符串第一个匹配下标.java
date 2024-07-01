@@ -50,7 +50,7 @@ public class Solution {
 
         // 进行匹配
         for (int i = 1, j = 0; i < m; i++) {
-            while (j > 0 && h[i] != n[j + 1]) j = next[j];
+            while (j > 0 && h[i] != n[j + 1]) j = next[j];  
             if (h[i] == n[j + 1]) j++;
             if (j == nLen - 1) {
                 return i - nLen + 1;  // 匹配成功，返回起始索引（去掉哨兵的影响）
