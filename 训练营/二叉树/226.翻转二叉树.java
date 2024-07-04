@@ -48,7 +48,8 @@ class Solution {
         queue.add(root);
         while(!queue.isEmpty()){
             //注意需要for循环把queue里的节点都处理了   需要注意size！
-            for(int i=0; i<queue.size(); i++){
+            int size = queue.size();
+            for(int i=0; i<size; i++){
                TreeNode cur = queue.poll();
                swap(cur);
                if(cur.left!=null) queue.add(cur.left);
