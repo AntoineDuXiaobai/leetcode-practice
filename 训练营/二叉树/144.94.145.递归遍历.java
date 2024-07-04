@@ -15,7 +15,7 @@
  *     }
  * }
  */
-//1. 递归 前序遍历  中-左-右
+//1. 递归 前序遍历  中-左-右     深度优先搜索DFS    迭代方便
 class Solution {
     private void preorder(TreeNode root, List<Integer> res){
         //终止条件

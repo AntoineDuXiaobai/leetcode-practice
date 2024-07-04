@@ -1,4 +1,4 @@
-//144.94.145.  迭代遍历
+//102.层序遍历  BFS   
 
 /**
  * Definition for a binary tree node.
@@ -16,7 +16,7 @@
  * }
  */
 
-//1. 层序遍历  借助队列
+//1. 层序遍历    广度优先搜索BFS    借助「队列」
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
