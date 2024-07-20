@@ -1,4 +1,4 @@
-//700.二叉搜索树中的搜索
+//700.二叉搜索树中的搜索    利用搜索树特性
 
 /**
  * Definition for a binary tree node.
@@ -16,7 +16,7 @@
  * }
  */
 
-//1. 递归    前序遍历   利用搜索树特性！
+//1. 递归    前序遍历   利用搜索树特性
 class Solution {
     class Solution {
         public TreeNode searchBST(TreeNode root, int val) {
